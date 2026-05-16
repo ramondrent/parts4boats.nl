@@ -1,0 +1,515 @@
+# Translation of WP-Syntex - Polylang for WooCommerce in French (France)
+# This file is distributed under the same license as the WP-Syntex - Polylang for WooCommerce package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-03-04 11:08:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: fr\n"
+"Project-Id-Version: WP-Syntex - Polylang for WooCommerce\n"
+
+#: src/strings.php:326 src/strings.php:366
+msgid "Local pickup title"
+msgstr "Titre du lieu de retrait"
+
+#: src/strings.php:319 src/strings.php:365
+msgid "Local pickup location details"
+msgstr "Détails sur le lieu de retrait"
+
+#: src/strings.php:316 src/strings.php:364
+msgid "Local pickup location name"
+msgstr "Nom du lieu de retrait"
+
+#: src/strings.php:77 src/strings.php:387
+msgid "Email header image"
+msgstr "Image d’entête de l’e-mail"
+
+#: src/admin/admin-status-reports.php:97
+msgid "The status of your WooCommerce shop's “Terms and conditions” page translations."
+msgstr "L’état des traductions de la page des « Conditions générales » de votre boutique WooCommerce."
+
+#: src/admin/admin-status-reports.php:93
+msgctxt "Page setting"
+msgid "Terms and conditions"
+msgstr "Conditions générales"
+
+#: dependencies/wpsyntex/updater/src/views/view-wizard-step-licenses.php:25
+msgid "There is an error with a license key."
+msgstr "Il y a une erreur avec une clé de licence."
+
+#: dependencies/wpsyntex/updater/src/views/view-wizard-step-licenses.php:22
+#: dependencies/wpsyntex/updater/src/Wizard_Licenses_Step.php:90
+msgid "Licenses"
+msgstr "Licences"
+
+#: dependencies/wpsyntex/updater/src/views/view-wizard-step-licenses.php:20
+msgid "Please enter your license key:"
+msgid_plural "Please enter your license keys:"
+msgstr[0] "Veuillez saisir votre clé de licence :"
+msgstr[1] "Veuillez saisir vos clés de licence :"
+
+#: dependencies/wpsyntex/updater/src/views/view-wizard-step-licenses.php:19
+msgid "You are using plugins which require a license key."
+msgstr "Vous utilisez des extensions qui nécessitent une clé de licence."
+
+#: dependencies/wpsyntex/updater/src/Settings.php:156
+msgid "Settings saved."
+msgstr "Réglages enregistrés."
+
+#: dependencies/wpsyntex/updater/src/Settings.php:66
+msgid "Close"
+msgstr "Fermer"
+
+#: dependencies/wpsyntex/updater/src/Settings.php:62
+msgid "Manage licenses for Polylang Pro and add-ons."
+msgstr "Gérer les licences de Polylang Pro et des modules."
+
+#: dependencies/wpsyntex/updater/src/Settings.php:61
+msgid "License keys"
+msgstr "Clés de licence"
+
+#. translators: %s is a date
+#: dependencies/wpsyntex/updater/src/License.php:382
+msgid "Your license key expires on %s."
+msgstr "Votre clé de licence expire le %s."
+
+#. translators: %1$s is a date, %2$s is link start tag, %3$s is link end tag.
+#: dependencies/wpsyntex/updater/src/License.php:374
+msgid "Your license key will expire soon! Precisely, it will expire on %1$s. %2$sRenew your license key today!%3$s"
+msgstr "Votre clé de licence expire bientôt ! Elle expire le %1$s. %2$sRenouvelez votre clé de licence aujourd’hui !%3$s."
+
+#: dependencies/wpsyntex/updater/src/License.php:369
+msgid "The license key never expires."
+msgstr "La clé de licence n’expire jamais."
+
+#: dependencies/wpsyntex/updater/src/License.php:366
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#. translators: %1$s is link start tag, %2$s is link end tag
+#: dependencies/wpsyntex/updater/src/License.php:358
+msgid "Your license key has reached its activation limit. %1$sView possible upgrades%2$s now."
+msgstr "Votre clé de licence a atteint sa limite d’activations. %1$sVoir les mises à niveau possibles%2$s maintenant."
+
+#. translators: %s is a product name
+#: dependencies/wpsyntex/updater/src/License.php:352
+msgid "This is not a %s license key."
+msgstr "Ce n’est pas une clé de licence %s."
+
+#. translators: %1$s is a product name, %2$s is link start tag, %3$s is link
+#. end tag.
+#: dependencies/wpsyntex/updater/src/License.php:343
+msgid "Your %1$s license key is not active for this URL. Please %2$svisit your account page%3$s to manage your license key URLs."
+msgstr "Votre clé de licence %1$s n’est pas active pour cette URL. Veuillez vous %2$srendre la page de votre compte%3$s pour gérer les URL de votre clé de licence."
+
+#. translators: %1$s is link start tag, %2$s is link end tag.
+#: dependencies/wpsyntex/updater/src/License.php:333
+msgid "Invalid license. Please %1$svisit your account page%2$s and verify it."
+msgstr "Licence invalide. Veuillez vous %1$srendre sur la page de votre compte%2$s et la vérifier."
+
+#: dependencies/wpsyntex/updater/src/License.php:327
+msgid "Your license key has been disabled."
+msgstr "Votre clé de licence a été désactivée."
+
+#. translators: %1$s is a date, %2$s is link start tag, %3$s is link end tag.
+#: dependencies/wpsyntex/updater/src/License.php:318
+msgid "Your license key expired on %1$s. Please %2$srenew your license key%3$s."
+msgstr "Votre clé de licence a expiré le %1$s. Veuillez %2$srenouveler votre clé de licence%3$s."
+
+#: dependencies/wpsyntex/updater/src/EDD_SL_Plugin_Updater.php:582
+msgid "Error"
+msgstr "Erreur"
+
+#: dependencies/wpsyntex/updater/src/EDD_SL_Plugin_Updater.php:582
+msgid "You do not have permission to install plugin updates"
+msgstr "Vous n’avez pas les droits nécessaires pour installer les mises à jour de l’extension."
+
+#: dependencies/wpsyntex/updater/src/EDD_SL_Plugin_Updater.php:346
+msgid "Update now."
+msgstr "Mettre à jour maintenant."
+
+#. translators: 1. and 4. are opening anchor tags 2. the new plugin version 3.
+#. and 5. are closing anchor tags.
+#: dependencies/wpsyntex/updater/src/EDD_SL_Plugin_Updater.php:335
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sVoir les détails de la version %2$s%3$s ou %4$smettre à jour maintenant%5$s."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin
+#. version 3. closing anchor tag, do not translate.
+#: dependencies/wpsyntex/updater/src/EDD_SL_Plugin_Updater.php:326
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sVoir les détails de la version %2$s%3$s."
+
+#: dependencies/wpsyntex/updater/src/EDD_SL_Plugin_Updater.php:321
+msgid "Contact your network administrator to install the update."
+msgstr "Contactez votre administrateur ou votre administratrice réseau pour installer la mise à jour."
+
+#. translators: the plugin name.
+#: dependencies/wpsyntex/updater/src/EDD_SL_Plugin_Updater.php:315
+msgid "There is a new version of %1$s available."
+msgstr "Une nouvelle version de %1$s est disponible."
+
+#: src/admin/admin-site-health.php:35
+msgid "All WooCommerce pages are translated."
+msgstr "Toutes les pages WooCommerce sont traduites."
+
+#: src/admin/view-wizard-step-wc-pages.php:28
+msgid "Before creating these pages in each language, if available, we will try to install the plugin translations."
+msgstr "Avant de créer ces pages dans chaque langue, si elles sont disponibles, nous essaierons d’installer les traductions des extensions."
+
+#: src/admin/view-wizard-step-wc-pages.php:70
+msgid "For your multilingual shop to work correctly, we need to ensure that all the WooCommerce pages are created and translated."
+msgstr "Pour que votre boutique multilingue fonctionne correctement, nous devons nous assurer que toutes les pages de WooCommerce sont créées et traduites."
+
+#: src/admin/view-wizard-step-wc-pages.php:63
+msgid "Finally, we are going to ensure that all the WooCommerce pages are created and translated."
+msgstr "Enfin, nous allons nous assurer que toutes les pages de WooCommerce soient créées et traduites."
+
+#: src/admin/view-wizard-step-wc-pages.php:37
+msgid "Missing plugin translations"
+msgstr "Traductions d’extensions manquantes"
+
+#: src/admin/view-wizard-step-wc-pages.php:30
+msgid "All the WooCommerce pages have already been created and translated, but some plugin translations have not been installed yet. We will try to install the plugin translations, if available."
+msgstr "Toutes les pages de WooCommerce ont déjà été créées et traduites, mais certaines traductions d’extensions n’ont pas encore été installées. Nous allons essayer d’installer les traductions des extensions, si elles sont disponibles."
+
+#: src/admin/view-wizard-step-wc-pages.php:23
+msgid "For your multilingual shop to work correctly, all the WooCommerce pages must be created and translated."
+msgstr "Pour que votre boutique multilingue fonctionne correctement, toutes les pages de WooCommerce doivent être créées et traduites."
+
+#: src/admin/view-wizard-step-wc-pages.php:18
+msgid "WooCommerce pages"
+msgstr "Pages WooCommerce"
+
+#: src/admin/wizard.php:104
+msgid "Update translations"
+msgstr "Mise à jour des traductions"
+
+#. Author of the plugin
+#: polylang-wc.php
+msgid "WP SYNTEX"
+msgstr "WP SYNTEX"
+
+#: src/admin/admin-wc-install.php:282
+msgctxt "Default category slug"
+msgid "Uncategorized"
+msgstr "Non classé"
+
+#: src/admin/admin-wc-install.php:203
+msgid "All missing WooCommerce pages successfully installed"
+msgstr "Toutes les pages WooCommerce manquantes ont bien été installées"
+
+#: src/admin/admin-wc-install.php:166
+msgctxt "Page title"
+msgid "My account"
+msgstr "Mon compte"
+
+#: src/admin/admin-wc-install.php:165
+msgctxt "Page slug"
+msgid "my-account"
+msgstr "mon-compte"
+
+#: src/admin/admin-wc-install.php:161
+msgctxt "Page title"
+msgid "Checkout"
+msgstr "Commande"
+
+#: src/admin/admin-wc-install.php:160
+msgctxt "Page slug"
+msgid "checkout"
+msgstr "commande"
+
+#: src/admin/admin-wc-install.php:156
+msgctxt "Page title"
+msgid "Cart"
+msgstr "Panier"
+
+#: src/admin/admin-wc-install.php:155
+msgctxt "Page slug"
+msgid "cart"
+msgstr "panier"
+
+#: src/admin/admin-wc-install.php:151
+msgctxt "Page title"
+msgid "Shop"
+msgstr "Boutique"
+
+#: src/admin/admin-wc-install.php:150
+msgctxt "Page slug"
+msgid "shop"
+msgstr "boutique"
+
+#: src/admin/admin-wc-install.php:117
+msgid "This tool will install all the missing WooCommerce pages. Pages already defined and set up will not be replaced."
+msgstr "Cet outil installera toutes les pages WooCommerce manquantes. Les pages déjà définies et configurées ne seront pas remplacées."
+
+#: src/admin/admin-wc-install.php:116
+msgid "Note:"
+msgstr "Note :"
+
+#: src/admin/admin-wc-install.php:113
+msgid "Install pages"
+msgstr "Installer les pages"
+
+#: src/admin/admin-wc-install.php:112
+msgid "Install WooCommerce pages"
+msgstr "Installer les pages WooCommerce"
+
+#: src/admin/admin-wc-install.php:87
+msgid "Terms and Conditions Page"
+msgstr "Pages des conditions générales"
+
+#: src/admin/admin-wc-install.php:83
+msgid "My Account Page"
+msgstr "Page mon compte"
+
+#: src/admin/admin-wc-install.php:79
+msgid "Checkout Page"
+msgstr "Page de validation de commande"
+
+#: src/admin/admin-wc-install.php:75
+msgid "Cart Page"
+msgstr "Page panier"
+
+#: src/admin/admin-wc-install.php:71
+msgid "Shop Page"
+msgstr "Page boutique"
+
+#: src/admin/admin-menus.php:126
+msgid "Lost password"
+msgstr "Mot de passe oublié"
+
+#: src/admin/admin-menus.php:66
+msgid "Add to menu"
+msgstr "Ajouter au menu"
+
+#: src/admin/admin-menus.php:63
+msgid "Select all"
+msgstr "Tout sélectionner"
+
+#: src/admin/admin-menus.php:43
+msgid "WooCommerce endpoints"
+msgstr "Points de terminaison WooCommerce"
+
+#. translators: %s comma separated list of native languages names
+#: src/admin/admin-status-reports.php:176
+msgid "The shortcode or block is missing for the translation in %s"
+msgid_plural "The shortcode or block is missing for the translations in %s"
+msgstr[0] "Le code court ou le bloc est manquant pour la traduction en %s"
+msgstr[1] "Le code court ou le bloc est manquant pour les traductions en %s"
+
+#. translators: %s comma separated list of native languages names
+#: src/admin/admin-status-reports.php:130
+msgid "Missing translation: %s"
+msgid_plural "Missing translations: %s"
+msgstr[0] "Traduction manquante : %s"
+msgstr[1] "Traductions manquantes : %s"
+
+#: src/admin/admin-status-reports.php:117
+msgid "Page not set"
+msgstr "Page non définie"
+
+#: src/admin/admin-status-reports.php:91
+msgid "The status of your WooCommerce shop's “My Account” page translations."
+msgstr "L’état des traductions de la page « Mon compte » de votre boutique WooCommerce."
+
+#: src/admin/admin-status-reports.php:87
+msgctxt "Page setting"
+msgid "My account"
+msgstr "Mon compte"
+
+#: src/admin/admin-status-reports.php:85
+msgid "The status of your WooCommerce shop's checkout page translations."
+msgstr "L’état des traductions de la page de commande de votre boutique WooCommerce."
+
+#: src/admin/admin-status-reports.php:81
+msgctxt "Page setting"
+msgid "Checkout"
+msgstr "Commande"
+
+#: src/admin/admin-status-reports.php:79
+msgid "The status of your WooCommerce shop's cart translations."
+msgstr "L’état des traductions de la page de panier de votre boutique WooCommerce."
+
+#: src/admin/admin-status-reports.php:75
+msgctxt "Page setting"
+msgid "Cart"
+msgstr "Panier"
+
+#: src/admin/admin-status-reports.php:73
+msgid "The status of your WooCommerce shop's homepage translations."
+msgstr "L’état des traductions de la page d’accueil de votre boutique WooCommerce."
+
+#: src/admin/admin-status-reports.php:69
+msgctxt "Page setting"
+msgid "Shop base"
+msgstr "Base de la boutique"
+
+#. translators: %s is a page name
+#: src/admin/view-status-report.php:23
+msgid "Edit %s page"
+msgstr "Modifier la page %s"
+
+#: src/admin/admin-site-health.php:34 src/admin/view-status-report.php:15
+#: src/admin/view-wizard-status-report.php:17
+msgid "WooCommerce pages translations"
+msgstr "Traductions des pages WooCommerce"
+
+#. translators: %s contains the name of the original product.
+#: src/admin/admin-product-duplicate.php:88
+msgid "%s (Copy)"
+msgstr "%s (Copier)"
+
+#. translators: %1$s and %2$s are plugin version numbers, %3$s is the plugin
+#. name (Polylang or Polylang Pro)
+#: polylang-wc.php:457
+msgid "You are using %3$s %1$s. Polylang for WooCommerce requires at least %3$s %2$s."
+msgstr "Vous utilisez %3$s %1$s. Polylang for WooCommerce nécessite au minimum %3$s %2$s."
+
+#. translators: %s is the plugin name (Polylang or Polylang Pro)
+#: polylang-wc.php:450
+msgid "Polylang for WooCommerce has been deactivated because you are using an old version of %s."
+msgstr "Polylang for WooCommerce a été désactivé car vous utilisez une ancienne version de %s."
+
+#: src/plugins/wcfd.php:84 src/plugins/wcfd.php:107
+msgid "Placeholder"
+msgstr "Espace réservé"
+
+#: src/plugins/bookings.php:816
+msgid "night"
+msgid_plural "nights"
+msgstr[0] "nuit"
+msgstr[1] "nuits"
+
+#: src/plugins/bookings.php:813
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minute"
+msgstr[1] "minutes"
+
+#: src/plugins/bookings.php:810
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "heure"
+msgstr[1] "heures"
+
+#: src/plugins/bookings.php:806
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "semaine"
+msgstr[1] "semaines"
+
+#: src/plugins/bookings.php:804
+msgid "day"
+msgid_plural "days"
+msgstr[0] "jour"
+msgstr[1] "jours"
+
+#: src/plugins/bookings.php:800
+msgid "month"
+msgid_plural "months"
+msgstr[0] "mois"
+msgstr[1] "mois"
+
+#: src/plugins/subscriptions.php:195
+msgid "Switch Button Text"
+msgstr "Texte du bouton de commutateur"
+
+#: src/plugins/subscriptions.php:194
+msgid "Place Order Button Text"
+msgstr "Texte du bouton pour passer commande"
+
+#: src/plugins/subscriptions.php:193
+msgid "Add to Cart Button Text"
+msgstr "Texte du bouton d’ajout au panier"
+
+#: src/plugins/table-rate-shipping.php:44 src/plugins/wcfd.php:80
+#: src/plugins/wcfd.php:103
+msgid "Label"
+msgstr "Libellé"
+
+#. translators: %s is a link to the Stripe documentation
+#: src/plugins/stripe.php:66
+msgid "TEST MODE ENABLED. In test mode, you can use the card number 4242424242424242 with any CVC and a valid expiration date or check the documentation \"<a href=\"%s\">Testing Stripe</a>\" for more card numbers."
+msgstr "MODE TEST ACTIVÉ. En mode test, vous pouvez utiliser le numéro de carte 4242424242424242 avec n’importe quel CVC et une date d’expiration valide ou lire la documentation « <a href=\"%s\">Tester Stripe</a> » pour d’autres numéros de cartes."
+
+#: src/strings.php:308 src/strings.php:359
+msgid "Tax name"
+msgstr "Nom de la TVA"
+
+#: src/strings.php:302 src/strings.php:354
+msgid "Attribute"
+msgstr "Attribut"
+
+#: src/strings.php:276 src/strings.php:349
+msgid "Bank name"
+msgstr "Nom de la banque"
+
+#: src/strings.php:275 src/strings.php:348
+msgid "Account name"
+msgstr "Nom du compte"
+
+#: src/strings.php:74
+msgid "Terms and conditions"
+msgstr "Conditions générales"
+
+#: src/strings.php:73
+msgid "Checkout privacy policy"
+msgstr "Politique de confidentialité de commande"
+
+#: src/strings.php:72
+msgid "Registration privacy policy"
+msgstr "Politique de confidentialité d’inscription"
+
+#: src/strings.php:71 src/strings.php:373
+msgid "Decimal separator"
+msgstr "Séparateur de décimales"
+
+#: src/strings.php:70 src/strings.php:372
+msgid "Thousand separator"
+msgstr "Séparateur des milliers"
+
+#: src/strings.php:69 src/strings.php:376
+msgid "Currency position"
+msgstr "Position de la devise"
+
+#: src/strings.php:67
+msgid "Store notice text"
+msgstr "Texte de notification de boutique"
+
+#: src/strings.php:66
+msgid "Footer text"
+msgstr "Texte du pied de page"
+
+#: src/export.php:38 src/import.php:58 src/import.php:83
+msgid "Translation group"
+msgstr "Groupe de traduction"
+
+#: src/admin/admin-orders.php:54 src/admin/admin-orders.php:103
+#: src/admin/admin-orders.php:219 src/export.php:37 src/import.php:57
+#: src/import.php:82
+msgid "Language"
+msgstr "Langue"
+
+#: src/xdata-session-manager.php:68
+msgid "An error has occurred."
+msgstr "Une erreur est survenue."
+
+#. Description of the plugin
+#: polylang-wc.php
+msgid "Adds multilingual capability to WooCommerce"
+msgstr "Ajoute des capacités multilingues pour WooCommerce"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: polylang-wc.php
+msgid "https://polylang.pro"
+msgstr "https://polylang.pro"
+
+#. Plugin Name of the plugin
+#: polylang-wc.php
+msgid "Polylang for WooCommerce"
+msgstr "Polylang for WooCommerce"
