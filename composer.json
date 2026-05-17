@@ -37,6 +37,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/ramondrent/polylang-auto-translate.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ramondrent/typesense.git"
     }
   ],
   "require": {
@@ -54,7 +58,9 @@
     "wp-plugin/woocommerce-gateway-stripe": "^10.5",
     "wp-plugin/classic-editor": "^1.6",
     "wp-plugin/classic-widgets": "^0.3.0",
-    "ramondrent/polylang-auto-translate": "^1.0"
+    "ramondrent/polylang-auto-translate": "^1.0",
+    "ramondrent/typesense": "^1.0",
+    "symfony/http-client": "^8.0"
   },
   "require-dev": {
     "laravel/pint": "^1.18"
@@ -64,7 +70,8 @@
     "preferred-install": "dist",
     "allow-plugins": {
       "composer/installers": true,
-      "roots/wordpress-core-installer": true
+      "roots/wordpress-core-installer": true,
+      "php-http/discovery": true
     }
   },
   "minimum-stability": "dev",
