@@ -33,6 +33,10 @@
       "name": "wp-packages",
       "type": "composer",
       "url": "https://repo.wp-packages.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ramondrent/polylang-auto-translate.git"
     }
   ],
   "require": {
@@ -49,7 +53,8 @@
     "wp-plugin/mollie-payments-for-woocommerce": "^8.1",
     "wp-plugin/woocommerce-gateway-stripe": "^10.5",
     "wp-plugin/classic-editor": "^1.6",
-    "wp-plugin/classic-widgets": "^0.3.0"
+    "wp-plugin/classic-widgets": "^0.3.0",
+    "ramondrent/polylang-auto-translate": "^1.0"
   },
   "require-dev": {
     "laravel/pint": "^1.18"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f12a5ad154c2ec6651155fbf2590c9af",
+    "content-hash": "cb684ebf33af375518f0f0de94588986",
     "packages": [
         {
             "name": "composer/installers",
@@ -343,6 +343,41 @@
                 }
             ],
             "time": "2025-12-27T19:41:33+00:00"
+        },
+        {
+            "name": "ramondrent/polylang-auto-translate",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ramondrent/polylang-auto-translate.git",
+                "reference": "2b7be4747e9a1341727d09512b429378c4413968"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ramondrent/polylang-auto-translate/zipball/2b7be4747e9a1341727d09512b429378c4413968",
+                "reference": "2b7be4747e9a1341727d09512b429378c4413968",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0",
+                "php": ">=8.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Ramon Drent",
+                    "email": "ramondrent@gmail.com"
+                }
+            ],
+            "description": "Automatically translate posts, pages, and WooCommerce products using AI (OpenAI or Anthropic) when published.",
+            "support": {
+                "source": "https://github.com/ramondrent/polylang-auto-translate/tree/1.0.0",
+                "issues": "https://github.com/ramondrent/polylang-auto-translate/issues"
+            },
+            "time": "2026-05-17T17:17:41+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
