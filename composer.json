@@ -41,10 +41,14 @@
     {
       "type": "vcs",
       "url": "https://github.com/ramondrent/typesense.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ramondrent/shop4trac-theme.git"
     }
   ],
   "require": {
-    "php": ">=8.1",
+    "php": ">=8.3",
     "composer/installers": "^2.2",
     "vlucas/phpdotenv": "^5.5",
     "oscarotero/env": "^2.1",
@@ -60,6 +64,7 @@
     "wp-plugin/classic-widgets": "^0.3.0",
     "ramondrent/polylang-auto-translate": "^1.0",
     "ramondrent/typesense": "^1.0",
+    "shop4trac/theme": "^1.0",
     "symfony/http-client": "^8.0"
   },
   "require-dev": {
