@@ -2968,16 +2968,16 @@
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v2.0.13",
+            "version": "v2.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "b566ee0dd251f3c4078bed003a7ce015f5ea6dce"
+                "reference": "dccd8bcb851bb03fcc005df650b708b57cc52661"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/b566ee0dd251f3c4078bed003a7ce015f5ea6dce",
-                "reference": "b566ee0dd251f3c4078bed003a7ce015f5ea6dce",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/dccd8bcb851bb03fcc005df650b708b57cc52661",
+                "reference": "dccd8bcb851bb03fcc005df650b708b57cc52661",
                 "shasum": ""
             },
             "require": {
@@ -3025,7 +3025,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2026-04-16T14:03:50+00:00"
+            "time": "2026-07-21T16:49:22+00:00"
         },
         {
             "name": "league/flysystem",
@@ -5315,16 +5315,16 @@
         },
         {
             "name": "shop4trac/theme",
-            "version": "v1.0.15",
+            "version": "v1.0.17",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ramondrent/shop4trac-theme.git",
-                "reference": "1e057d8f62f25d732b75a33594845cfa5859d90f"
+                "reference": "1f411c1fa86ad2ee08011ed5c7e13ccb1d0f0c71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramondrent/shop4trac-theme/zipball/1e057d8f62f25d732b75a33594845cfa5859d90f",
-                "reference": "1e057d8f62f25d732b75a33594845cfa5859d90f",
+                "url": "https://api.github.com/repos/ramondrent/shop4trac-theme/zipball/1f411c1fa86ad2ee08011ed5c7e13ccb1d0f0c71",
+                "reference": "1f411c1fa86ad2ee08011ed5c7e13ccb1d0f0c71",
                 "shasum": ""
             },
             "require": {
@@ -5390,9 +5390,9 @@
             "support": {
                 "issues": "https://github.com/roots/sage/issues",
                 "forum": "https://discourse.roots.io/",
-                "source": "https://github.com/ramondrent/shop4trac-theme/tree/v1.0.15"
+                "source": "https://github.com/ramondrent/shop4trac-theme/tree/v1.0.17"
             },
-            "time": "2026-07-14T09:15:26+00:00"
+            "time": "2026-07-21T15:48:47+00:00"
         },
         {
             "name": "symfony/clock",
