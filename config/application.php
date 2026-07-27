@@ -135,6 +135,21 @@ Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?? true);
 Config::define('CONCATENATE_SCRIPTS', false);
 
 /**
+ * Redis object cache (wp-plugin/redis-cache)
+ */
+Config::define('WP_REDIS_HOST', env('WP_REDIS_HOST') ?: '127.0.0.1');
+Config::define('WP_REDIS_PORT', env('WP_REDIS_PORT') ?: 6379);
+Config::define('WP_REDIS_DATABASE', env('WP_REDIS_DATABASE') ?? 0);
+Config::define('WP_REDIS_PREFIX', 'p4b');
+Config::define('WP_REDIS_TIMEOUT', 1);
+Config::define('WP_REDIS_READ_TIMEOUT', 1);
+// Safety net so stale keys expire even without eviction pressure
+Config::define('WP_REDIS_MAXTTL', 86400);
+Config::define('WP_REDIS_IGBINARY', true);
+// Never break the site if Redis is down
+Config::define('WP_REDIS_GRACEFUL', true);
+
+/**
  * Debugging Settings
  */
 Config::define('WP_DEBUG_DISPLAY', false);
