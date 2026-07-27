@@ -830,16 +830,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.15.1",
+            "version": "7.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "61443dfb33c62f308ee8add20f45b4d6e4bf8d2f"
+                "reference": "744101956d78b7c1384d0cbf379db13e859167bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/61443dfb33c62f308ee8add20f45b4d6e4bf8d2f",
-                "reference": "61443dfb33c62f308ee8add20f45b4d6e4bf8d2f",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/744101956d78b7c1384d0cbf379db13e859167bf",
+                "reference": "744101956d78b7c1384d0cbf379db13e859167bf",
                 "shasum": ""
             },
             "require": {
@@ -938,7 +938,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.15.1"
+                "source": "https://github.com/guzzle/guzzle/tree/7.15.2"
             },
             "funding": [
                 {
@@ -954,7 +954,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-07-18T11:23:11+00:00"
+            "time": "2026-07-26T23:23:20+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -5315,16 +5315,16 @@
         },
         {
             "name": "shop4trac/theme",
-            "version": "v1.0.17",
+            "version": "v1.0.19",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ramondrent/shop4trac-theme.git",
-                "reference": "1f411c1fa86ad2ee08011ed5c7e13ccb1d0f0c71"
+                "reference": "858b3ef8c142a4e4ed8338c80a34ce32d2ad6c47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramondrent/shop4trac-theme/zipball/1f411c1fa86ad2ee08011ed5c7e13ccb1d0f0c71",
-                "reference": "1f411c1fa86ad2ee08011ed5c7e13ccb1d0f0c71",
+                "url": "https://api.github.com/repos/ramondrent/shop4trac-theme/zipball/858b3ef8c142a4e4ed8338c80a34ce32d2ad6c47",
+                "reference": "858b3ef8c142a4e4ed8338c80a34ce32d2ad6c47",
                 "shasum": ""
             },
             "require": {
@@ -5390,9 +5390,9 @@
             "support": {
                 "issues": "https://github.com/roots/sage/issues",
                 "forum": "https://discourse.roots.io/",
-                "source": "https://github.com/ramondrent/shop4trac-theme/tree/v1.0.17"
+                "source": "https://github.com/ramondrent/shop4trac-theme/tree/v1.0.19"
             },
-            "time": "2026-07-21T15:48:47+00:00"
+            "time": "2026-07-27T11:20:13+00:00"
         },
         {
             "name": "symfony/clock",
@@ -8186,15 +8186,15 @@
         },
         {
             "name": "wp-plugin/simple-cloudflare-turnstile",
-            "version": "1.41.1",
+            "version": "1.42.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-cloudflare-turnstile/",
-                "reference": "tags/1.41.1"
+                "reference": "tags/1.42.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-cloudflare-turnstile.1.41.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/simple-cloudflare-turnstile.1.42.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0|~2.0"
@@ -8212,7 +8212,7 @@
                 "issues": "https://wordpress.org/support/plugin/simple-cloudflare-turnstile",
                 "source": "https://plugins.svn.wordpress.org/simple-cloudflare-turnstile"
             },
-            "time": "2026-06-22T21:40:57+00:00"
+            "time": "2026-07-26T15:36:14+00:00"
         },
         {
             "name": "wp-plugin/woocommerce",
