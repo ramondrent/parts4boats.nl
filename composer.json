@@ -69,7 +69,8 @@
     "wp-plugin/sendcloud-connected-shipping": "^1.0",
     "wp-plugin/simple-cloudflare-turnstile": "^1.39",
     "wp-plugin/woocommerce-pdf-invoices-packing-slips": "^5.12",
-    "wp-plugin/redis-cache": "^2.5"
+    "wp-plugin/redis-cache": "^2.5",
+    "wp-plugin/duracelltomi-google-tag-manager": "^1.22"
   },
   "require-dev": {
     "laravel/pint": "^1.18"
