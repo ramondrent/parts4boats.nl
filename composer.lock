@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f00acebf898fbbe957d67b3d247a4234",
+    "content-hash": "5396665efbc5bc01ee4151e40fe4f446",
     "packages": [
         {
             "name": "brick/math",
@@ -8121,6 +8121,37 @@
                 "source": "https://plugins.svn.wordpress.org/classic-widgets"
             },
             "time": "2026-03-23T19:23:21+00:00"
+        },
+        {
+            "name": "wp-plugin/code-snippets",
+            "version": "3.9.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/code-snippets/",
+                "reference": "tags/3.9.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/code-snippets.3.9.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Code Snippets Pro"
+                }
+            ],
+            "description": "An easy, clean, and simple way to enhance your site with code snippets.",
+            "homepage": "https://codesnippets.pro",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/code-snippets/#developers",
+                "issues": "https://wordpress.org/support/plugin/code-snippets",
+                "source": "https://plugins.svn.wordpress.org/code-snippets"
+            },
+            "time": "2026-08-12T13:51:02+00:00"
         },
         {
             "name": "wp-plugin/duracelltomi-google-tag-manager",
