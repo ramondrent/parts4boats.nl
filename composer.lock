@@ -5323,16 +5323,16 @@
         },
         {
             "name": "shop4trac/theme",
-            "version": "v1.0.59",
+            "version": "v1.0.61",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ramondrent/shop4trac-theme.git",
-                "reference": "b4e2166661d4287327bbcadd493dd933ea20592f"
+                "reference": "da11c06eef8fe7947c911000077553cb94428db3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramondrent/shop4trac-theme/zipball/b4e2166661d4287327bbcadd493dd933ea20592f",
-                "reference": "b4e2166661d4287327bbcadd493dd933ea20592f",
+                "url": "https://api.github.com/repos/ramondrent/shop4trac-theme/zipball/da11c06eef8fe7947c911000077553cb94428db3",
+                "reference": "da11c06eef8fe7947c911000077553cb94428db3",
                 "shasum": ""
             },
             "require": {
@@ -5398,9 +5398,9 @@
             "support": {
                 "issues": "https://github.com/roots/sage/issues",
                 "forum": "https://discourse.roots.io/",
-                "source": "https://github.com/ramondrent/shop4trac-theme/tree/v1.0.59"
+                "source": "https://github.com/ramondrent/shop4trac-theme/tree/v1.0.61"
             },
-            "time": "2026-11-02T16:05:37+00:00"
+            "time": "2026-11-04T13:23:12+00:00"
         },
         {
             "name": "symfony/clock",
@@ -8630,5 +8630,5 @@
         "php": ">=8.3"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.11.0"
 }
